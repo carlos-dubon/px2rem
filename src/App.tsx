@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center h-full p-8 text-white min-h-dvh bg-gradient-to-br from-[#18183B] to-[#181F5F]">
+    <div className="flex justify-center h-full p-4 sm:p-8 text-white min-h-dvh bg-gradient-to-br from-[#18183B] to-[#181F5F]">
       <GridPattern className="absolute bg-[171D51] opacity-65" size={92} />
       <div className="grid grid-rows-[auto,1fr,auto] w-full max-w-3xl relative z-10 gap-8">
         <header className="flex items-center justify-between">
